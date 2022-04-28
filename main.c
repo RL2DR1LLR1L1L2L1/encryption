@@ -16,7 +16,7 @@ char encode(int count1, char *input, char *output)
     
     //an array of encrypted and unencrypted characters on the qwerty keyboard
     char atob[88] = "abcdefghijklmnopqrstuvwyxzABCDEFGHIJKLMNOPQRSTUVWYXZ0123456789!@#$%^&*()-_=+[{]};:,<.>/?"; //unencrypted
-    char btoa[90] = "ababcdefghijklmnopqrstuvwyABABCDEFGHIJKLMNOPQRSTUVWYXZ0123456789!@#$%^&*()-_=+[{]};:,<.>/?"; //encrypted
+    char btoa[90] = "ababcdefghijklmnopqrstuvwyxzABCDEFGHIJKLMNOPQRSTUVWYXZ0123456789!@#$%^&*()-_=+[{]};:,<.>"; //encrypted
 
 
     for(int i = 0; i < 20; i++)
